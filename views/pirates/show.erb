@@ -6,13 +6,13 @@
   </body>
 <h1>First Ship</h1>
   <body>
-    <% @ships.each.with_index do |ship, i| %>
-    <% if i == 0 %>
+    <% @ships.each.with_index do |ship, i| 
+      if i == 0 %>
     <h2>Name:<%= ship.name %></h2>
     <h2>Type:<%= ship.type %></h2>
     <h2>Booty:<%= ship.booty %></h2>
-    <% end %>
-    <% end %>
+    <% end
+    end %>
   </body>
 
 <h1>Second Ship</h1>
